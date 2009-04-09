@@ -1,0 +1,7 @@
+= twitter-clone-client
+
+Description goes here.
+
+== Copyright
+
+Copyright (c) 2009 Szymon Nowak. See LICENSE for details.
