@@ -44,7 +44,7 @@ module TwitterClone
                       opt :id, "ID of the tweet you want to delete", :type => :int, :required => true
                     end
                   else
-                    Trollop::die "unknown subcommand #{cmd.inspect}"
+                    Trollop::die "unknown subcommand #{@cmd.inspect}"
                   end
             
       self.send(@cmd) # execute the subcommand
