@@ -21,7 +21,7 @@ module TwitterClone
 
     def initialize
       @opts = Trollop::options do
-        banner "Twitter clone RESTful client"
+        banner "Twitter clone RESTful client\nAvailable commands: show, create, delete"
         stop_on SUB_COMMANDS
       end
 
